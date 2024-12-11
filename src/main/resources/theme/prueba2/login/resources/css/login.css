@@ -1,0 +1,23 @@
+.login-pf body {
+    background: url("../img/fondo.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.pf-c-form-control {
+    font-size: 14px;
+    font-size: var(--pf-global--FontSize--sm);
+    border-width: 1px;
+    border-width: var(--pf-global--BorderWidth--sm);;
+    border-color: #EDEDED #EDEDED #8A8D90 #EDEDED;
+    border-color: var(--pf-global--BorderColor--300) var(--pf-global--BorderColor--300) var(--pf-global--BorderColor--200) var(--pf-global--BorderColor--300);
+    background-color: #FFFFFF;
+    background-color: var(--pf-global--BackgroundColor--100);
+    height: 36px;
+    height: calc(var(--pf-c-form-control--FontSize) * var(--pf-c-form-control--LineHeight) + var(--pf-c-form-control--BorderWidth) * 2 + var(--pf-c-form-control--PaddingTop) + var(--pf-c-form-control--PaddingBottom));
+    padding: 5px 0.5rem;
+    padding: var(--pf-c-form-control--PaddingTop) var(--pf-c-form-control--PaddingRight) var(--pf-c-form-control--PaddingBottom) var(--pf-c-form-control--PaddingLeft);
+}
+
+
+

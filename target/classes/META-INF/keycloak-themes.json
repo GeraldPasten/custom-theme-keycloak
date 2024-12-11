@@ -1,0 +1,7 @@
+{
+    "themes": [{
+        "name" : "prueba2",
+        "types": [ "login" ]
+    }]
+    
+}
